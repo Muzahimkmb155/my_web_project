@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>YOUNG DEVELOPERS</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <input type="text" class="search-input" placeholder="Search..."> 
+    </div>
+
+    <div class="main-content">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>The SUZA Young Developers Club is a dynamic and innovative community formed at the State University of Zanzibar (SUZA) that brings together aspiring programmers, coders, and technology enthusiasts. The club provides a platform for students to develop their coding skills, collaborate on projects, and explore the latest trends in software development and technology. Through workshops, hackathons, and mentorship opportunities, SUZA Young Developers Club empowers its members to build real-world solutions, fostering creativity and problem-solving abilities.</p>
+
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="pic1.jpg" alt="Programmers">
+                    <p>Group of Programmers</p>
+                </div>
+                <div class="image-item">
+                    <img src="pic2.jpg" alt="Developers">
+                    <p>Young Developers in Action</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <p>Young developers often possess a diverse set of skills that set them apart in the tech industry. 
+                These skills typically include strong technical abilities such as coding in multiple programming languages, 
+                understanding algorithms, and developing software solutions. 
+                They also excel in problem-solving, using creative approaches to tackle complex challenges. 
+                In addition to hard skills, young developers are frequently adept at collaboration, 
+                leveraging teamwork to enhance project outcomes. They are also quick learners, 
+                staying updated with the latest technology trends and tools. 
+                Their passion for continuous learning and innovation, combined with a proactive attitude towards self-improvement, 
+                positions them as valuable contributors to any tech-driven organization.</p>
+
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="pic5.jpg" alt="Coding Skills">
+                    <p>Coding Skills</p>
+                </div>
+                <div class="image-item">
+                    <img src="pic6.jpg" alt="Teamwork Skills">
+                    <p>Teamwork in Projects</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section">
+            <h2>Events</h2>
+            <p>The SUZA Young Developers Club hosts a variety of dynamic and engaging events designed to foster learning, 
+                collaboration, and innovation. 
+                These events include hackathons, 
+                coding bootcamps, workshops, 
+                and tech talks, 
+                where members can delve into the latest technologies, 
+                enhance their coding skills, and work on real-world projects. 
+                The club also organizes networking meetups, 
+                where aspiring developers can connect with industry professionals and fellow enthusiasts. 
+                Through these events, SUZA Young Developers Club creates an inspiring environment that encourages creativity, 
+                problem-solving, and professional growth, 
+                helping members to stay at the forefront of the tech industry.</p>
+
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="pic8.png" alt="Hackathon">
+                    <p>Hackathon Event</p>
+                </div>
+                <div class="image-item">
+                    <img src="pic7.jpg" alt="Workshop">
+                    <p>Workshop Session</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Address:</strong> Vuga, Zanzibar, TZ</p>
+                <p><strong>Email:</strong> contact@youngdeveloperszanzibar.org</p>
+                <p><strong>Phone:</strong> +255 123 456 789</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/company/suza-young-developers-club" target="_blank">LinkedIn</a>
+                <a href="https://facebook.com/youngdeveloperszanzibar" target="_blank">Facebook</a>
+                <a href="https://twitter.com/youngdevzanzibar" target="_blank">Twitter</a>
+                <a href="https://instagram.com/youngdevzanzibar" target="_blank">Instagram</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 SUZA Young Developers Club. All rights reserved.</p>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.navigation a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
