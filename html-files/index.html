@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../css-files/styles.css">
+    <link rel="stylesheet" href="../js-files/script.js">
     
 </head>
 <body>
@@ -28,11 +29,11 @@
 
             <div class="image-container">
                 <div class="image-item">
-                    <img src="pic1.jpg" alt="Programmers">
+                    <img src="../img-files/pic1.jpg" alt="Programmers">
                     <p>Group of Programmers</p>
                 </div>
                 <div class="image-item">
-                    <img src="pic2.jpg" alt="Developers">
+                    <img src="../img-files/pic2.jpg" alt="Developers">
                     <p>Young Developers in Action</p>
                 </div>
             </div>
@@ -52,11 +53,11 @@
 
             <div class="image-container">
                 <div class="image-item">
-                    <img src="pic5.jpg" alt="Coding Skills">
+                    <img src="../img-files/pic5.jpg" alt="Coding Skills">
                     <p>Coding Skills</p>
                 </div>
                 <div class="image-item">
-                    <img src="pic6.jpg" alt="Teamwork Skills">
+                    <img src="../img-files/pic6.jpg" alt="Teamwork Skills">
                     <p>Teamwork in Projects</p>
                 </div>
             </div>
@@ -79,11 +80,11 @@
 
             <div class="image-container">
                 <div class="image-item">
-                    <img src="pic8.png" alt="Hackathon">
+                    <img src="../img-files/pic8.png" alt="Hackathon">
                     <p>Hackathon Event</p>
                 </div>
                 <div class="image-item">
-                    <img src="pic7.jpg" alt="Workshop">
+                    <img src="../img-files/pic7.jpg" alt="Workshop">
                     <p>Workshop Session</p>
                 </div>
             </div>
@@ -108,18 +109,6 @@
     <div class="footer">
         <p>&copy; 2024 SUZA Young Developers Club. All rights reserved.</p>
     </div>
-
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('.navigation a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
     
 </body>
 </html>
